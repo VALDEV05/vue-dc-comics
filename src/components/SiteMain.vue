@@ -1,8 +1,14 @@
 <template>
   <main id="site_main">
     <div id="content_section">
-      <div class="container">
-        <h1>Content goes here</h1>
+      <div class="container row">
+        <Superhero
+          v-for="superhero in superheros"
+          :key="superhero.series"
+          :image="superhero.thumb"
+          :series="superhero.series"
+          class="col-6"
+        />
       </div>
     </div>
     <!-- /#content_section -->
@@ -103,6 +109,7 @@
   </main>
 </template>
 <script>
+import Superhero from "@/components/Superhero.vue";
 export default {
   data() {
     return {
@@ -194,14 +201,15 @@ export default {
       ],
     };
   },
+  components: {
+    Superhero,
+  },
 };
 </script>
 <style scoped lang="scss">
 #site_main {
-  height: 655px;
   color: #ffffff;
   #content_section {
-    height: 135px;
     width: 100%;
     background-color: #1c1c1c;
     .container {
@@ -213,7 +221,7 @@ export default {
     }
   }
   #card_section {
-    height: 155px;
+    height: 135px;
     width: 100%;
     background-color: #0282f9;
     .row {
