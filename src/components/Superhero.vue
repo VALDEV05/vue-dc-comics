@@ -14,17 +14,18 @@ export default {
 </script>
 <style lang="scss">
 .card {
-  margin: 1rem 0;
+  height: 275px;
+  margin: 25px 0px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   img {
-    height: 200px;
+    height: 225px;
     width: 200px;
-    margin-bottom: 20px;
   }
   p {
+    margin-top: 20px;
+    text-align: left;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;

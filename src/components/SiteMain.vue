@@ -10,6 +10,7 @@
           :series="superhero.series"
           class="col-6"
         />
+        <div class="btn button">Load More</div>
       </div>
     </div>
     <!-- /#content_section -->
@@ -214,6 +215,7 @@ export default {
     background-image: url(../assets/img/jumbotron.jpg);
     width: 100vw;
     height: 400px;
+    background-size: cover;
   }
   #content_section {
     width: 100%;
@@ -221,8 +223,11 @@ export default {
     .container {
       display: flex;
       align-items: center;
-      h1 {
-        margin-left: 20px;
+      justify-content: center;
+      .btn {
+        background-color: #0282f9;
+        padding: 8px 12px;
+        margin: 2rem;
       }
     }
   }
