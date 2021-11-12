@@ -1,5 +1,6 @@
 <template>
   <main id="site_main">
+    <div id="jumbotron"></div>
     <div id="content_section">
       <div class="container row">
         <Superhero
@@ -209,6 +210,11 @@ export default {
 <style scoped lang="scss">
 #site_main {
   color: #ffffff;
+  #jumbotron {
+    background-image: url(../assets/img/jumbotron.jpg);
+    width: 100vw;
+    height: 400px;
+  }
   #content_section {
     width: 100%;
     background-color: #1c1c1c;
