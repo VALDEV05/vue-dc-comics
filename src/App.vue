@@ -25,15 +25,5 @@ export default {
 </script>
 
 <style lang="scss">
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
-}
-.container {
-  width: 1290px;
-  margin: auto;
-  height: 100%;
-}
+@import "./assets/scss/common.scss";
 </style>

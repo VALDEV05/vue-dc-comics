@@ -7,19 +7,19 @@
       <div class="socials">
         <div class="text">Follow Us</div>
         <div class="icons">
-          <div class="icon">
+          <div class="icon facebook">
             <img src="../assets/img/footer-facebook.png" alt="" />
           </div>
-          <div class="icon">
+          <div class="icon twitter">
             <img src="../assets/img/footer-twitter.png" alt="" />
           </div>
-          <div class="icon">
+          <div class="icon youtube">
             <img src="../assets/img/footer-youtube.png" alt="" />
           </div>
-          <div class="icon">
+          <div class="icon pinterest">
             <img src="../assets/img/footer-pinterest.png" alt="" />
           </div>
-          <div class="icon">
+          <div class="icon periscope">
             <img src="../assets/img/footer-periscope.png" alt="" />
           </div>
         </div>
